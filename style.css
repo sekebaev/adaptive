@@ -10,6 +10,10 @@ body{
     margin: 0 auto;
 }
 
+.fa-solid{
+    display: none;
+}
+
 @media (max-width:1280px){
     .container{
         max-width: 1024px;
@@ -23,8 +27,12 @@ body{
 }
 
 @media (max-width:480px){
+    .fa-solid{
+        display:block ;
+    }
     header nav{
         display: none;
+        
     }
     .container{
         max-width: 320px;
@@ -36,15 +44,6 @@ body{
         max-width: none;
     }
 }
-
-
-@media (orientation:landscape){
-    body{
-        color: blueviolet;
-    }
-}
-
-
 
 ul{
     list-style-type: none;
