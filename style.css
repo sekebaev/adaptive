@@ -18,38 +18,6 @@ body{
 
 }
 
-@media (max-width:1280px){
-    .container{
-        max-width: 1024px;
-    }
-}
-
-@media (max-width:1024px){
-    .container{
-        max-width: 768px;
-    }
-}
-
-@media (max-width:480px){
-    .bar{
-        display:block ;
-
-    }
-    header nav{
-        display: none;
-        
-    }
-    .container{
-        max-width: 320px;
-    }
-}
-
-@media (max-width:320pxpx){
-    .container{
-        max-width: none;
-    }
-}
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -164,5 +132,37 @@ article{
     }
     99.9%{
         background-color: red;
+    }
+}
+
+@media (max-width:1280px){
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width:1024px){
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media (max-width:480px){
+    .bar{
+        display:block ;
+
+    }
+    header nav{
+        display: none;
+        
+    }
+    .container{
+        max-width: 320px;
+    }
+}
+
+@media (max-width:320pxpx){
+    .container{
+        max-width: none;
     }
 }
